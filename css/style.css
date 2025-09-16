@@ -1,0 +1,74 @@
+:root {
+    --lakers-purple: #552583;
+    --lakers-gold: #FDB927;
+    --lakers-white: #FFFFFF;
+}
+
+.bg-purple {
+    background-color: var(--lakers-purple) !important;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--lakers-gold);
+    transition: width 0.25s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: var(--lakers-purple);
+    border-color: var(--lakers-purple);
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background-color: #3a1a5e;
+    border-color: #3a1a5e;
+    color: #fff;
+}
+
+.table th {
+    background-color: var(--lakers-purple);
+    color: #fff;
+}
+
+footer {
+    background-color: var(--lakers-purple);
+    color: #fff;
+}
+
+.social-icons a {
+    transition: transform 0.25s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+    color: var(--lakers-gold) !important;
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
