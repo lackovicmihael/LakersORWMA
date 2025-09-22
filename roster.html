@@ -2,70 +2,67 @@
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sastav — Los Angeles Lakers</title>
+  <title>Sastav Los Angeles Lakers</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+  <nav class="navbar bg-purple">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="img/lakers-logo.png" alt="Lakers Logo" height="40">
+        <img src="img/lakers-logo.png" alt="Lakers Logo">
       </a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto">
-          <li><a class="nav-link" href="index.html">Početna</a></li>
-          <li><a class="nav-link" href="roster.html">Sastav</a></li>
-          <li><a class="nav-link" href="schedule.html">Raspored</a></li>
-          <li><a class="nav-link" href="about.html">O klubu</a></li>
-        </ul>
-      </div>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+        <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Raspored</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">O nama</a></li>
+      </ul>
     </div>
   </nav>
 
   <main class="py-5">
-    <div class="row mt-5 justify-content-center">
-    <h1 class="text-center mb-5">Startna petorka</h1>
-    <div class="col-md-2 col-6 mb-4 text-center">
-        <img src="img/player1.jpg" class="img-fluid rounded-circle mb-2" alt="Player 1">
-        <h5>LeBron James</h5><p>F</p>
-    </div>
-    <div class="col-md-2 col-6 mb-4 text-center">
-        <img src="img/player2.jpg" class="img-fluid rounded-circle mb-2" alt="Player 2">
-        <h5>Anthony Davis</h5><p>C</p>
-    </div>
-    <div class="col-md-2 col-6 mb-4 text-center">
-        <img src="img/player3.jpg" class="img-fluid rounded-circle mb-2" alt="Player 3">
-        <h5>D'Angelo Russell</h5><p>G</p>
-    </div>
-    <div class="col-md-2 col-6 mb-4 text-center">
-        <img src="img/player4.jpg" class="img-fluid rounded-circle mb-2" alt="Player 4">
-        <h5>Austin Reaves</h5><p>G</p>
-    </div>
-    <div class="col-md-2 col-6 mb-4 text-center">
-        <img src="img/player5.jpg" class="img-fluid rounded-circle mb-2" alt="Player 5">
-        <h5>Jarred Vanderbilt</h5><p>F</p>
-    </div>
-    </div>
-
     <div class="container">
-      <h1 class="text-center mb-5">Sastav tima 2023/2024</h1>
+      <h1 class="text-center mb-5">Startna petorka</h1>
+      <div class="row text-center">
+        <div class="col">
+          <img src="img/player1.jpg" class="img-fluid rounded-circle mb-2" alt="LeBron James">
+          <h5>LeBron James</h5>
+          <p>F</p>
+        </div>
+        <div class="col">
+          <img src="img/player2.jpg" class="img-fluid rounded-circle mb-2" alt="Anthony Davis">
+          <h5>Anthony Davis</h5>
+          <p>C</p>
+        </div>
+        <div class="col">
+          <img src="img/player3.jpg" class="img-fluid rounded-circle mb-2" alt="D'Angelo Russell">
+          <h5>D'Angelo Russell</h5>
+          <p>G</p>
+        </div>
+        <div class="col">
+          <img src="img/player4.jpg" class="img-fluid rounded-circle mb-2" alt="Austin Reaves">
+          <h5>Austin Reaves</h5>
+          <p>G</p>
+        </div>
+        <div class="col">
+          <img src="img/player5.jpg" class="img-fluid rounded-circle mb-2" alt="Jarred Vanderbilt">
+          <h5>Jarred Vanderbilt</h5>
+          <p>F</p>
+        </div>
+      </div>
 
-      <div class="table-responsive">
-        <table class="table table-striped table-hover">
-          <thead class="table-dark">
+      <h1 class="text-center my-5">Sastav tima</h1>
+      <div>
+        <table class="table table-bordered">
+          <thead class="table-secondary">
             <tr>
               <th>#</th>
               <th>Igrač</th>
-              <th>Pozicija</th>
+              <th>Poz.</th>
               <th>Visina</th>
               <th>Težina</th>
-              <th>Dob</th>
+              <th>God.</th>
             </tr>
           </thead>
           <tbody>
@@ -90,19 +87,14 @@
           </tbody>
         </table>
       </div>
-
+    </div>
   </main>
 
   <footer class="bg-dark text-white py-4 mt-5">
     <div class="container text-center">
-      <div class="social-icons mb-3">
-        <a href="https://www.facebook.com/lakers" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/Lakers" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/lakers/" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.youtube.com/@lakers" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
-      </div>
       <p>&copy; 2023 Los Angeles Lakers. Sva prava pridržana.</p>
     </div>
   </footer>
 </body>
 </html>
+
